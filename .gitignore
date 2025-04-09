@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+.env
+dist/
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS Files
+Thumbs.db
+ehthumbs.db
+
+# IDEs & Editors
+.vscode/
+.idea/
+
+# Build files
+/build
+*.local
