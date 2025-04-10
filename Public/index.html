@@ -1,135 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/Users/shaunalexanderkriel/DIYJunkie/Public/css/style.css"
+    />
     <title>DIYJunkie/index.page</title>
-</head>
-<body>
-    <nav>
-        <header>
-            <h2 id="Logo">DIYJunkie</h2>
-        <ul>
-            <li><a href="#Home" class="nav-link">Home</a></li>
-            <li><a href="#Projects" class="nav-link">Projects</a></li>
-            <li><a href="#Tracker" class="nav-link">Tracker</a></li>
-            <li><a href="#Tools" class="nav-link">Tools</a></li>
-            <li><a href="#Conversion" class="nav-link">Conversion</a></li>
-            <li><a href="#Safety" class="nav-link">Safety</a></li>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>
+        <!-- <h2 id="Logo">DIYJunkie</h2> -->
+        <ul class="topnav">
+          <li><a href="#Home" class="nav-link">Home</a></li>
+          <li><a href="#Projects" class="nav-link">Projects</a></li>
+          <li><a href="#Tracker" class="nav-link">Tracker</a></li>
+          <li><a href="#Tools" class="nav-link">Tools</a></li>
+          <li><a href="#Conversion" class="nav-link">Conversion</a></li>
+          <li><a href="#Safety" class="nav-link">Safety</a></li>
         </ul>
+      </header>
     </nav>
-</header>
-<!-- Hero Section -->
-<section id="hero">
-    <img src="/Users/shaunalexanderkriel/DIYJunkie/images/DIYlogo2.png" alt="logo" class="logo-banner">
-    <h3 class="slogan">Fix It! Build It! Own It!</h3>
-    <h4 class="slogan">Where Home Projects Meet Confidence.</h4>
-</section>
-<!-- Projects -->
- <section id="projects">
-    <h4>Projects</h4>
-    <div id="card-container">
-        <!-- card 1 -->
-        <div class="card">
-            <img src="" alt="">
-            <h2>General</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur 
-                adipisicing elit. Beatae repudiandae qui 
-                ducimus consequuntur modi et amet illo 
-                nemo non dolores molestiae quos porro .
-            </p>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-content">
+        <img
+          src="/Users/shaunalexanderkriel/DIYJunkie/images/DIYlogo2.png"
+          alt="DIYJunkie logo"
+          class="hero-logo"
+        />
+        <div class="slogan">
+          <h3 class="slogan">Fix It! Build It! Own It!</h3>
+          <h4 class="slogan">Where Home Projects Meet Confidence.</h4>
         </div>
-        <!-- card 2 -->
-        <div class="card">
-            <img src="" alt="">
-            <h2>Electrical</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur 
-                adipisicing elit. Beatae repudiandae qui 
-                ducimus consequuntur modi et amet illo 
-                nemo non dolores molestiae quos porro .
-            </p>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section id="projects">
+      <h4>Projects</h4>
+      <div id="card-container">
+        <div class="row">
+          <!-- card 1 -->
+          <div class="column">
+            <div class="card">
+              <img src="" alt="" />
+              <h2>General</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                repudiandae qui ducimus consequuntur modi et amet illo nemo non
+                dolores molestiae quos porro .
+              </p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="column">
+            <div class="card">
+              <img src="" alt="" />
+              <h2>Electrical</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                repudiandae qui ducimus consequuntur modi et amet illo nemo non
+                dolores molestiae quos porro .
+              </p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="column">
+            <div class="card">
+              <img src="" alt="" />
+              <h2>Plumbing</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                repudiandae qui ducimus consequuntur modi et amet illo nemo non
+                dolores molestiae quos porro .
+              </p>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="column">
+            <div class="card">
+              <img src="" alt="" />
+              <h2>Landscaping</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                repudiandae qui ducimus consequuntur modi et amet illo nemo non
+                dolores molestiae quos porro .
+              </p>
+            </div>
+          </div>
         </div>
-        <!-- card 3 -->
-        <div class="card">
-            <img src="" alt="">
-            <h2>Plumbing</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur 
-                adipisicing elit. Beatae repudiandae qui 
-                ducimus consequuntur modi et amet illo 
-                nemo non dolores molestiae quos porro .
-            </p>
-        </div>
-        <!-- card 4 -->
-        <div class="card">
-            <img src="" alt="">
-            <h2>Landscaping</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur 
-                adipisicing elit. Beatae repudiandae qui 
-                ducimus consequuntur modi et amet illo 
-                nemo non dolores molestiae quos porro .
-            </p>
-        </div>
-    </div>
- </section>
- <section id="features">
-    <h4>Features</h4>
-    <div id="card-container">
+      </div>
+    </section>
+    <section id="features">
+      <h4>Features</h4>
+      <div id="card-container">
         <!-- card 5 -->
         <div class="card">
-            <img src="" alt="">
-            <h2>Project Tracker</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur 
-                adipisicing elit. Beatae repudiandae qui 
-                ducimus consequuntur modi et amet illo 
-                nemo non dolores molestiae quos porro .
-            </p>
+          <img src="" alt="" />
+          <h2>Project Tracker</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            repudiandae qui ducimus consequuntur modi et amet illo nemo non
+            dolores molestiae quos porro .
+          </p>
         </div>
         <!-- card 6 -->
         <div class="card">
-            <img src="" alt="">
-            <h2>Tools/Materials</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur 
-                adipisicing elit. Beatae repudiandae qui 
-                ducimus consequuntur modi et amet illo 
-                nemo non dolores molestiae quos porro .
-            </p>
+          <img src="" alt="" />
+          <h2>Tools/Materials</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            repudiandae qui ducimus consequuntur modi et amet illo nemo non
+            dolores molestiae quos porro .
+          </p>
         </div>
         <!-- card 7 -->
         <div class="card">
-            <img src="" alt="">
-            <h2>Conversion Tool</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur 
-                adipisicing elit. Beatae repudiandae qui 
-                ducimus consequuntur modi et amet illo 
-                nemo non dolores molestiae quos porro .
-            </p>
+          <img src="" alt="" />
+          <h2>Conversion Tool</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            repudiandae qui ducimus consequuntur modi et amet illo nemo non
+            dolores molestiae quos porro .
+          </p>
         </div>
         <!-- card 8 -->
         <div class="card">
-            <img src="" alt="">
-            <h2>Safety Check</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur 
-                adipisicing elit. Beatae repudiandae qui 
-                ducimus consequuntur modi et amet illo 
-                nemo non dolores molestiae quos porro .
-            </p>
+          <img src="" alt="" />
+          <h2>Safety Check</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            repudiandae qui ducimus consequuntur modi et amet illo nemo non
+            dolores molestiae quos porro .
+          </p>
         </div>
-    </div>
- </section>
- <section id="tips-tutorials">
-    <h4>Tips</h4>
-    <p>oawgpwiqghpwighpwigpqwigpqwigpqwigpiwqhg</p>
-    <h4>Tutorials</h4>
-    <p>oawgpwiqghpwighpwigpqwigpqwigpqwigpiwqhg</p>
- </section>
- <footer id="footer">
-    <ul>
+      </div>
+    </section>
+    <section id="tips-tutorials">
+      <h4>Tips</h4>
+      <p>oawgpwiqghpwighpwigpqwigpqwigpqwigpiwqhg</p>
+      <h4>Tutorials</h4>
+      <p>oawgpwiqghpwighpwigpqwigpqwigpqwigpiwqhg</p>
+    </section>
+    <footer id="footer">
+      <ul>
         <li><a href="" class="footer-links">About</a></li>
         <li><a href="" class="footer-links">Terms</a></li>
         <li><a href="" class="footer-links">Privacy</a></li>
         <li><a href="" class="footer-links">Contact</a></li>
-    </ul>
-    <p>&copy 2025 DIYJunkie ltd. All rights reserved</p>
- </footer>
-</body>
+      </ul>
+      <p>&copy 2025 DIYJunkie ltd. All rights reserved</p>
+    </footer>
+  </body>
 </html>

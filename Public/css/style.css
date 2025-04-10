@@ -103,7 +103,36 @@ ul.topnav li a:hover:not(.active) {
     .slogan h4 {
         font-size: 1rem;
     }
-  
+  }
+
+  /* Projects Section */
+
+  #projects {
+    margin: 10px;
+  }
+  /* float columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+  .row {
+    margin: 0 -5px;
+  }
+  /* clear floats after columns */
+  .row:floats {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
   }
 
 
